@@ -40,18 +40,24 @@ some_number = 10
 # print(5 < some_number and some_number < 15)
 
 some_bool = False
-some_list = [10]
+some_list = [10, 11, 12, 13, 14, 15]
 
 # print(not some_bool)
 
 some_string = 'brasilia'
 
 # print('brasil' in some_string)
-print('Brasil' in some_string)
+# print('Brasil' in some_string)
 # print('bresil' in some_string)
 # print('bresil' not in some_string)
-print(len(some_string))
-print(some_string.upper())
-print(some_string.lower())
-print(some_string.title())
-print('Brasil' in some_string.title())
+# print(len(some_string))
+# print(some_string.upper())
+# print(some_string.lower())
+# print(some_string.title())
+# print('Brasil' in some_string.title())
+
+print(some_string.startswith('bras'))
+print(some_string.endswith('ilia'))
+print(some_string.find('ilia'))
+# print(some_list.find(12)) find is not an array method
+print(some_string.split(''))
