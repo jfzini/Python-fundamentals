@@ -1,10 +1,27 @@
-# este é um comentário e o código abaixo cria uma variável e a exibe na tela
-nome = 'João Felipe Zini'
-print('Olá,', nome, 'seja bem-vindo!')
+# this is a comment in python and the following lines declare variables and print them
+name = 'João Felipe Zini'
+print('Olá,', name, 'seja bem-vindo!')
 
-pessoa = 'João'
-print('Olá,', pessoa)
+person = 'João'
+print('Olá,', person)
 
-numero = 1
-numero += 2
-print(numero)
+number = 1
+number += 2
+print(number)
+
+# first loop for in python
+
+paradigm = 5
+
+lesserArr = []
+greaterArr = []
+
+for i in range(10):
+    if (i < paradigm):
+        lesserArr.append(i)
+    elif (i > paradigm):
+        greaterArr.append(i)
+
+print('Final result:')
+print('This is the lesserArr', lesserArr)
+print('This is the greaterArr', greaterArr)
