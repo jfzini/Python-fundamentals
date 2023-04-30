@@ -46,8 +46,12 @@ some_list = [10]
 
 some_string = 'brasilia'
 
-print('brasil' in some_string)
+# print('brasil' in some_string)
 print('Brasil' in some_string)
-print('bresil' in some_string)
-print('bresil' not in some_string)
+# print('bresil' in some_string)
+# print('bresil' not in some_string)
 print(len(some_string))
+print(some_string.upper())
+print(some_string.lower())
+print(some_string.title())
+print('Brasil' in some_string.title())
