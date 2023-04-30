@@ -33,13 +33,20 @@
 # print(type(paradigm))
 
 some_number = 10
-print(some_number == 10)
-print(some_number < 5)
-print(some_number < 15)
-print(5 < some_number < 15)
-print(5 < some_number and some_number < 15)
+# print(some_number == 10)
+# print(some_number < 5)
+# print(some_number < 15)
+# print(5 < some_number < 15)
+# print(5 < some_number and some_number < 15)
 
 some_bool = False
 some_list = [10]
 
-print(not some_bool)
+# print(not some_bool)
+
+some_string = 'brasilia'
+
+print('brasil' in some_string)
+print('Brasil' in some_string)
+print('bresil' in some_string)
+print('bresil' not in some_string)
