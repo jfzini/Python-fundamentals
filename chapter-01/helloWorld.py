@@ -32,7 +32,7 @@
 # print('This is the greaterArr', greater_arr)
 # print(type(paradigm))
 
-some_number = 10
+some_number = 73
 # print(some_number == 10)
 # print(some_number < 5)
 # print(some_number < 15)
@@ -56,8 +56,12 @@ some_string = 'brasilia'
 # print(some_string.title())
 # print('Brasil' in some_string.title())
 
-print(some_string.startswith('bras'))
-print(some_string.endswith('ilia'))
-print(some_string.find('ilia'))
+# print(some_string.startswith('bras'))
+# print(some_string.endswith('ilia'))
+# print(some_string.find('ilia'))
 # print(some_list.find(12)) find is not an array method
-print(some_string.split(''))
+# print(some_string.split(''))
+
+print(some_string + ' tem ' + str(some_number) + ' anos')
+str(some_number)
+print(type(some_number))
