@@ -1,4 +1,6 @@
-# this is a comment in python and the following lines declare variables and print them
+# this is a comment in python and the following lines
+# declare variables and print them
+
 name = 'João Felipe Zini'
 print('Olá,', name, 'seja bem-vindo!')
 
@@ -13,15 +15,16 @@ print(number)
 
 paradigm = 5
 
-lesserArr = []
-greaterArr = []
+# in python, the best practice is to use snake_case
+lesser_arr = []
+greater_arr = []
 
 for i in range(10):
     if (i < paradigm):
-        lesserArr.append(i)
+        lesser_arr.append(i)
     elif (i > paradigm):
-        greaterArr.append(i)
+        greater_arr.append(i)
 
 print('Final result:')
-print('This is the lesserArr', lesserArr)
-print('This is the greaterArr', greaterArr)
+print('This is the lesserArr', lesser_arr)
+print('This is the greaterArr', greater_arr)
