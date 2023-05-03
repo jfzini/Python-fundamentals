@@ -17,3 +17,8 @@ for c in arr:  # only iterable objects
     sum_arr += c
     print(sum_arr)
 print(sum_arr)
+
+for num in range(250, 300):
+    if num % 21 == 0:
+        print(num)
+        break
