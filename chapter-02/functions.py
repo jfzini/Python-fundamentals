@@ -1,6 +1,7 @@
 # from control import arr
 # import activities as act
 import itertools
+import random
 
 
 def sum(a, b):
@@ -23,4 +24,5 @@ numbers_list = [0, 1, 3, 5, 7, 9]
 megasena = list(range(1, 61))
 print(len(list(itertools.combinations(numbers_list, 4))))
 print(len(list(itertools.permutations(numbers_list, 6))))
-print(len(list(itertools.combinations(megasena, 6))))
+# print(len(list(itertools.combinations(megasena, 6))))
+print(random.randint(1, 3))
