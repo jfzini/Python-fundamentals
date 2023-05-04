@@ -21,3 +21,13 @@ text.close()
 
 print(content)
 print(type(content))
+
+obj = open('test.js', 'r')
+obj_content = obj.read()
+obj.close()
+print(obj_content)
+
+obj = open('test.js', 'r')
+obj_content = obj.readlines()
+obj.close()
+print(obj_content)
