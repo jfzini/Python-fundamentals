@@ -1,3 +1,6 @@
+from control import arr
+
+
 def sum(a, b):
     return a + b
 
@@ -12,3 +15,4 @@ def highest_number(list):
 
 
 print(highest_number([1, 2, 3, 4, 4, 4, 3, 2, 3, 3, 3]))
+print(highest_number(arr))
