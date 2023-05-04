@@ -1,4 +1,4 @@
 object = {
-  'primeiro': 'primeiro valor',
-  'segundo': 'segundo valor'
+  'first': 'first value',
+  'second': 'second value'
 }

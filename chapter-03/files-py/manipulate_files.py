@@ -8,26 +8,23 @@
 # 'b' => binary
 # 'file'.close() => always close a file after opening it
 
-text = open('text_file.txt', 'r')
-content = text.read()
-text.close()
+# obj = open('test.js', 'r')  # it can read js files but not sure if i can use this further
+# obj_content = obj.read()
+# obj.close()
+# print(obj_content)
 
-print(content)
-print(type(content))
+# text = open('text_file.txt', 'r')
+# content = text.read()
+# text.close()
+
+# print(content)
+# print(type(content))
 
 text = open('text_file.txt', 'r')
 content = text.readlines()
+clean_content = []
+for line in content:
+    clean_content.append(line.rstrip())
 text.close()
 
-print(content)
-print(type(content))
-
-obj = open('test.js', 'r')
-obj_content = obj.read()
-obj.close()
-print(obj_content)
-
-obj = open('test.js', 'r')
-obj_content = obj.readlines()
-obj.close()
-print(obj_content)
+print(clean_content)
