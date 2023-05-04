@@ -10,3 +10,5 @@ print(new_list)
 newer_list = [num for num in range(1, 21) if num % 2 == 0]
 
 print(newer_list)
+
+print(list(map(lambda x: x * 3, newer_list)))
