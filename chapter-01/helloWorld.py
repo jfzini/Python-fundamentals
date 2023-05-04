@@ -63,5 +63,15 @@ some_string = 'brasilia'
 # print(some_string.split(''))
 
 print(some_string + ' tem ' + str(some_number) + ' anos')
-str(some_number)
-print(type(some_number))
+print(str(some_number))
+print(type(some_number))  # str() doesnt change the type of the original var
+print(bool(some_number))
+print(float(some_number))
+
+# f'' corresponds to template literals
+print(f'{some_string} tem {some_number} anos')
+
+some_float = 11.212223654
+
+# similar to toFixed, but apparently only work with f str
+print(f'{some_float:.2f}')
