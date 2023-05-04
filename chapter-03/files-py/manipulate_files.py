@@ -20,11 +20,20 @@
 # print(content)
 # print(type(content))
 
-text = open('text_file.txt', 'r')
-content = text.readlines()
-clean_content = []
-for line in content:
-    clean_content.append(line.rstrip())
-text.close()
+# text = open('text_file.txt', 'r')
+# content = text.readlines()
+# clean_content = []
+# for line in content:
+#     clean_content.append(line.rstrip())
+# text.close()
 
-print(clean_content)
+# print(clean_content)
+
+# text = open('text_file.txt', 'a')
+# text.write('Fortaleza \n')
+# text.close()
+
+text = open('text_file.txt', 'a')
+lines = ['São Luís \n', 'Palmas\n', 'Belém\n']
+text.writelines(lines)
+text.close()
