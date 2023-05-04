@@ -1,4 +1,5 @@
 from control import arr
+import activities as act
 
 
 def sum(a, b):
@@ -16,3 +17,4 @@ def highest_number(list):
 
 print(highest_number([1, 2, 3, 4, 4, 4, 3, 2, 3, 3, 3]))
 print(highest_number(arr))
+print(highest_number(range(act.inicio, act.fim)))
