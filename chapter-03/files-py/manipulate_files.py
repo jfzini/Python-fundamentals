@@ -3,12 +3,14 @@
 # open('path', 'r') => read only
 # open('path', 'w') => creates a new file and overwrite if already exists
 # open('path', 'x') => creates a new file or returns error if already exists
-# open('path', 'a') => creates a new file or add to the final of the file if already exists
+# open('path', 'a') => creates a new file or add to the final of the file if
+# already exists
 # 't' => text
 # 'b' => binary
 # 'file'.close() => always close a file after opening it
 
-# obj = open('test.js', 'r')  # it can read js files but not sure if i can use this further
+# obj = open('test.js', 'r')  # it can read js files but not sure if i can
+# use this further
 # obj_content = obj.read()
 # obj.close()
 # print(obj_content)
