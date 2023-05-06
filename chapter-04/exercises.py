@@ -22,3 +22,11 @@ def circle_area(r, pi=3.14):
 
 
 print(circle_area(8))
+
+
+# refactoring using lambda functions
+
+
+# area = lambda r, pi=3.14: pi * r ** 2
+
+# print(area(8))
