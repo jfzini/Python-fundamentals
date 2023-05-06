@@ -9,6 +9,16 @@ for nome in nomes:
 
 # refactoring using dict comprehension
 letter_qnt = {nome: len(nome) for nome in nomes}
-print(qtd_letras)
-print(letter_qnt)
-print(letter_qnt == qtd_letras)
+# print(qtd_letras)
+# print(letter_qnt)
+# print(letter_qnt == qtd_letras)
+
+
+# create a function with default parameters
+
+
+def circle_area(r, pi=3.14):
+    return pi * r ** 2
+
+
+print(circle_area(8))
